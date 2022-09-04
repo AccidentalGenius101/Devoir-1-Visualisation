@@ -1,0 +1,20 @@
+---
+    title: "Exercice 1"
+    author: "Mettez votre nom ici"
+    output: html_document
+    ---
+    
+    # Réflexion
+    
+    Remplacez ce texte par votre réflexion
+    
+    
+    # Mon premier graphique
+    
+    ```{r load-libraries-data, warning=FALSE, message=FALSE}
+    library(tidyverse)
+    
+    cars <- read_csv("data/cars.csv")
+    ```
+    
+    Remplacez cette ligne par un bloc de code et utilisez-le pour créer un graphique
