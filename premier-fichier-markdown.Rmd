@@ -23,6 +23,6 @@ output:
     
 ```{r}
 library(ggplot2)
-ggplot(cars, aes(cty, displ)) + geom_point() + labs(title = "Variable cty en fonction de la variable displ") + theme(plot.title = element_text(hjust = 0.5))
+ggplot(cars, aes(cty, displ, col = year)) + geom_point() + labs(title = "Variable cty en fonction de la variable displ par année") + theme(plot.title = element_text(hjust = 0.5))
 ```
     
