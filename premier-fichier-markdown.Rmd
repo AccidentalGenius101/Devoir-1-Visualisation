@@ -11,7 +11,7 @@ output:
     
     # Réflexion
     
-    Je n'avais jamais porté de détail particulier aux couleurs de mes graphiques, mais en lisant les différents articles. J'ai compris que c'étais très important. Aussi, j'ai appris à différencier quand utiliser un fichier jpeg, png et pdf. 
+    Je n'avais jamais porté de détail particulier aux couleurs de mes graphiques, mais en lisant les différents articles. J'ai compris que c'était très important. Aussi, j'ai appris à différencier quand utiliser un fichier jpeg, png et PDF. J'ai aussi appris le principe CRAP. Celui-ci parle de l'importance de 4 facteurs clés dans une conception graphique. Le premier facteur est de s’assurer de faire contraster les éléments qui sont différents. Le deuxième est de s’assurer de répéter certaines tendances pour montrer une cohésion et des liens dans notre conception. Le troisième et de s’assurer que les éléments soit alignée ensemble pour montrer qu’ils sont reliés. Et dernièrement, il faut s’assurer que les éléments communs soit à proximité l’un de l’autres. 
     
     # Mon premier graphique
 
