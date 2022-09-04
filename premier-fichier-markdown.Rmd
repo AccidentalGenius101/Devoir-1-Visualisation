@@ -1,20 +1,28 @@
 ---
+output:
+  word_document: default
+  html_document: default
+---
+---
     title: "Exercice 1"
-    author: "Mettez votre nom ici"
+    author: "Gabriel Aubin-Moreau"
     output: html_document
     ---
     
     # Réflexion
     
-    Remplacez ce texte par votre réflexion
-    
+    Je n'avais jamais porté de détail particulier aux couleurs de mes graphiques, mais en lisant les différents articles. J'ai compris que c'étais très important. Aussi, j'ai appris à différencier quand utiliser un fichier jpeg, png et pdf. 
     
     # Mon premier graphique
-    
+
     ```{r load-libraries-data, warning=FALSE, message=FALSE}
     library(tidyverse)
     
     cars <- read_csv("data/cars.csv")
     ```
     
-    Remplacez cette ligne par un bloc de code et utilisez-le pour créer un graphique
+```{r}
+library(ggplot2)
+ggplot(cars, aes(cty, displ)) + geom_point() + labs(title = "Variable cty en fonction de la variable displ") + theme(plot.title = element_text(hjust = 0.5))
+```
+    
